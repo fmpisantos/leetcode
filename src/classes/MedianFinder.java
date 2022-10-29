@@ -1,6 +1,8 @@
+package src.classes;
+
 import java.util.ArrayList;
 
-class MedianFinder {
+public class MedianFinder {
 
     private ArrayList<Integer> array;
 

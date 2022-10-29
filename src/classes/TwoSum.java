@@ -1,6 +1,7 @@
+package src.classes;
+
 import java.util.Map;
 import java.util.HashMap;
-import java.util.Objects;
 
 public class TwoSum {
     public static int[] twoSums( int [] nums, int target ){
