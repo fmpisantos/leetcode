@@ -8,13 +8,14 @@ import src.helpers.ListNode;
 import java.util.Arrays;
 
 import static src.classes.LenghtOfLongestSubstring.lengthOfLongestSubstring;
+import static src.classes.MedianSortedArrays.findMedianSortedArrays;
 import static src.classes.RomanToInt.romanToInt;
 import static src.classes.SearchInsert.searchInsert;
 import static src.classes.ThreeSum.threeSum;
 
 class Main{
     public static void main(String[] args){
-        runLenghtOfLongestSubstring();
+        runFindMedianSortedArrays();
     }
 
     public static void runMedian(){
@@ -57,9 +58,16 @@ class Main{
     }
 
     public static void runLenghtOfLongestSubstring(){
-        // System.out.println( lengthOfLongestSubstring("abcabcbb") );
-        // System.out.println( lengthOfLongestSubstring("bbbbb") );
-        // System.out.println( lengthOfLongestSubstring("pwwkew") );
+        System.out.println( lengthOfLongestSubstring("abcabcbb") );
+        System.out.println( lengthOfLongestSubstring("bbbbb") );
+        System.out.println( lengthOfLongestSubstring("pwwkew") );
         System.out.println( lengthOfLongestSubstring("abba") );
+    }
+
+    public static void runFindMedianSortedArrays(){
+        // System.out.println(findMedianSortedArrays(new int[]{1,3}, new int[]{2}));
+        // System.out.println(findMedianSortedArrays(new int[]{1,2}, new int[]{3,4}));
+        // System.out.println(findMedianSortedArrays(new int[]{0,0}, new int[]{0,0}));
+        System.out.println(findMedianSortedArrays(new int[]{0,0,0,0,0}, new int[]{-1,0,0,0,0,0,1}));
     }
 }
