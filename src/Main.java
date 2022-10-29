@@ -7,6 +7,7 @@ import src.helpers.ListNode;
 
 import java.util.Arrays;
 
+import static src.classes.LenghtOfLongestSubstring.lengthOfLongestSubstring;
 import static src.classes.RomanToInt.romanToInt;
 import static src.classes.SearchInsert.searchInsert;
 import static src.classes.ThreeSum.threeSum;
@@ -53,5 +54,11 @@ class Main{
 
     public static void runRomanToInt(){
         System.out.println(romanToInt("III"));
+    }
+
+    public static void runLenghtOfLongestSubstring(){
+        lengthOfLongestSubstring("abcabcbb");
+        lengthOfLongestSubstring("bbbbb");
+        lengthOfLongestSubstring("pwwkew");
     }
 }
