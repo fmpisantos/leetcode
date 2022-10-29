@@ -14,7 +14,7 @@ import static src.classes.ThreeSum.threeSum;
 
 class Main{
     public static void main(String[] args){
-        runTwoSum();
+        runLenghtOfLongestSubstring();
     }
 
     public static void runMedian(){
@@ -57,8 +57,9 @@ class Main{
     }
 
     public static void runLenghtOfLongestSubstring(){
-        lengthOfLongestSubstring("abcabcbb");
-        lengthOfLongestSubstring("bbbbb");
-        lengthOfLongestSubstring("pwwkew");
+        // System.out.println( lengthOfLongestSubstring("abcabcbb") );
+        // System.out.println( lengthOfLongestSubstring("bbbbb") );
+        // System.out.println( lengthOfLongestSubstring("pwwkew") );
+        System.out.println( lengthOfLongestSubstring("abba") );
     }
 }
